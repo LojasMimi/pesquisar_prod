@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-# CSV remoto hospedado no GitHub (ajustado com sua URL)
+# CSV remoto hospedado no GitHub
 CSV_URL = "https://raw.githubusercontent.com/LojasMimi/pesquisar_prod/refs/heads/main/cad_concatenado.csv"
 
 # Função para carregar dados com cache
@@ -72,12 +72,13 @@ elif pagina == "Dados dos produtos":
 elif pagina == "Sobre":
     st.subheader("ℹ️ Sobre")
     st.markdown("""
-    Este aplicativo foi desenvolvido para auxiliar na pesquisa de produtos das **Lojas Mimi**.
+    Este aplicativo foi desenvolvido visando ajudar os auxiliares de escritório das **Lojas Mimi**, ajudando-os a poupar tempo abrindo cada planilha.
 
     **Funcionalidades:**
-    - Pesquisa por Código de Barras, Código VF ou REF
-    - Visualização completa da base de produtos
-    - Navegação simples e eficiente
+    - Pesquisa por Código de Barras, Código VF ou REF  
+    - Visualização completa da base de produtos  
+    - Navegação simples e eficiente  
 
-    Desenvolvido com ❤️ pela equipe de dados.
+    Aplicativo desenvolvido por [**PABLO**](https://github.com/opablodantas) para as **Lojas Mimi**.  
+    **Todos os direitos reservados.**
     """)
